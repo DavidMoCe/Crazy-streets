@@ -1,5 +1,9 @@
 # 🏎️ Crazy Streets: Multiplayer Car Game 🏁
 
+## 🌍 Choose Your Language / Elige tu idioma:
+- [English Version](#english)
+- [Versión en Español](#español)
+
 ## English
 
 Welcome to **Crazy Streets**, an exciting multiplayer game where two cars compete to dodge obstacles and race along challenging paths! 🚗💨
