@@ -1,5 +1,6 @@
-## English
 # 🏎️ Crazy Streets: Multiplayer Car Game 🏁
+
+## English
 
 Welcome to **Crazy Streets**, an exciting multiplayer game where two cars compete to dodge obstacles and race along challenging paths! 🚗💨
 
@@ -65,7 +66,6 @@ Developed by **David Moreno Cerezo**.
 ***
 
 ## Español
-# 🏎️ Calles Locas: Juego de Coches Multijugador 🏁
 
 ¡Bienvenido a **Calles Locas**, un emocionante juego multijugador en el que dos coches compiten para esquivar obstáculos y avanzar por caminos llenos de retos! 🚗💨
 
