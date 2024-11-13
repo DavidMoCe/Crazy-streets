@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+    <title>Calles Locas</title>
+    <link rel="shortcut icon" href="./assets/images/icono-juego.png">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="aviso">Voltee el dispositivo <img id="girar-movil" src="images/gira-derecha.png" alt="girar movil">
+    </div>
+    <div id="game-container">
+        <div id="fondo-inicio">
+            <h1 id="titulo">Juego de coches: Calles locas</h1>
+            <button id="start">Start</button>
+        </div>
+        <div id="opacidad"></div>
+
+        <div id="contenedor">
+            <div id="container1" class="contenedor_videojuego">
+                <div id="nivel1" class="ocultar nivel">Nivel 1</div>
+                <div id="perder1" class="perder">
+                    <h1 id="titulo-Perder">GAME OVER!!!</h1>
+                </div>
+                <div id="puntuacion1">Puntuación: 0</div>
+                <div id="colisiones1">Colisiones: 0</div>
+                <div id="coche1" class="coche">
+                    <img id="cocheimg" class="" src='assets/images/deportivo_simple.png' alt="coche1">
+                </div>
+            </div>
+
+            <div id="container2" class="contenedor_videojuego">
+                <div id="nivel2" class="ocultar nivel">Nivel 1</div>
+                <div id="perder2" class="perder">
+                    <h1 id="titulo-Perder">GAME OVER!!!</h1>
+                </div>
+                <div id="puntuacion2">Puntuación: 0</div>
+                <div id="colisiones2">Colisiones: 0</div>
+                <div id="coche2" class="coche">
+                    <img id="cocheimg" class="" src='assets/images/deportivo_simple.png' alt="coche1">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

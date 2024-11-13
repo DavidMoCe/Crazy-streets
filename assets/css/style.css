@@ -1,0 +1,242 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+#contenedor {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.contenedor_videojuego {
+    width: 100%;
+    border: solid 10px;
+    border-color: blanchedalmond;
+    position: relative;
+    /* Asegurar posición relativa para barras y coche1 */
+    overflow: hidden;
+    /* Ocultar contenido que se desborda */
+}
+
+
+.nivel{
+    position: absolute;
+    top: 22vh;
+    left: 50%;
+    background-color: rgb(165, 39, 183);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 6vh;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.64), 0 0 10px rgba(255, 254, 254, 0.55) inset;
+    z-index: 10001;
+    transform: translate(-50%, -50%);
+    transition: opacity 3s; /* Transición de 5 segundos para la propiedad opacity */
+}
+
+.ocultar{
+    opacity: 0;
+}
+
+#puntuacion1, #puntuacion2 {
+    position: absolute;
+    top: 2%;
+    left: 3%;
+    font-size: 2vw;
+    padding: 1.5%;
+    background-color: burlywood;
+    border-radius: 20px;
+    z-index: 1000;
+}
+
+#colisiones1, #colisiones2 {
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    font-size: 2vw;
+    padding: 1.5%;
+    background-color: rgb(210, 10, 10);
+    border-radius: 20px;
+    color: white;
+    z-index: 1000;
+}
+
+#coche1 {
+    /* Se ponen inicialmente left y top1 para que se vea el coche1, pero sólo para eso*/
+    left: 23.5vw;
+    top: 55vh;
+    position: relative;
+    width: 2.5vw;
+    z-index: 1000;
+}
+
+#coche2 {
+    /* Se ponen inicialmente left y top1 para que se vea el coche1, pero sólo para eso*/
+    left: 23.5vw;
+    top: 55vh;
+    position: relative;
+    width: 2.5vw;
+    z-index: 1000;
+}
+
+#cocheimg {
+    width: 100%;
+
+}
+
+.barra_horizontal {
+    height: 81px;
+    background-color: rgb(253, 196, 10);
+    background-color: grey;
+    top: 0;
+    position: absolute;
+}
+
+.barra_izquierda1 {
+    width: 40%;
+    left: 0;
+
+}
+
+.barra_derecha1 {
+    width: 40%;
+    left: 0;
+}
+
+.barra_izquierda2 {
+    width: 40%;
+    left: 0;
+}
+
+.barra_derecha2 {
+    width: 40%;
+    left: 0;
+}
+
+#titulo {
+    position: inherit;
+    top: 30%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    font-size: 5vh;
+    text-align: center;
+    z-index: 1010;
+    color: white;
+    font-family: "arial black";
+    font-weight: bold;
+}
+
+#titulo2 {
+    position: inherit;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5vh;
+    text-align: center;
+    z-index: 1010;
+    color: white;
+    font-family: "arial black";
+    font-weight: bold;
+}
+
+#start {
+    position: inherit;
+    z-index: 1010;
+    font-size: 10vh;
+    background-color: rgb(245, 99, 99);
+    color: white;
+    padding: 1% 2%;
+    border-radius: 20px;
+    cursor: pointer;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#fondo-inicio {
+    width: 55vw;
+    height: 50vh;
+    background-color: rgb(81, 130, 78);
+    z-index: 1009;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    border: solid 8px rgb(30, 94, 26);
+}
+
+#opacidad {
+    z-index: 1008;
+    background-color: rgba(29, 32, 46, 0.70);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.perder {
+    position: absolute;
+    background-color: rgb(18, 104, 190);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    z-index: 1009;
+    width: 70%;
+    height: 23%;
+}
+
+#perder1 h1,#perder2 h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#perder1 {
+    display: none;
+}
+
+#perder2 {
+    display: none;
+}
+
+#titulo-Perder {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.aviso {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    position: absolute;
+    z-index: 10001;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#girar-movil {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 130px;
+}
+
+/* Si está en un movil mostramos el mensaje de girar el dispositivo */
+@media screen and (min-width: 580px) {
+    .aviso {
+        display: none;
+    }
+}
