@@ -1,7 +1,6 @@
 # 🏎️ Crazy Streets: Multiplayer Car Game 🏁
 
 ## 🌍 Choose Your Language / Elige tu idioma:
-## 🌍 Choose Your Language / Elige tu idioma:
 - [English](#english)
 - [Español](#español)
 
