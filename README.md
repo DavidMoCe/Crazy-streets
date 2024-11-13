@@ -4,6 +4,8 @@
 - [English](#english)
 - [Español](#español)
 
+## 🌐 Live Demo / Demo en Vivo:
+- [Play the game on GitHub Pages](https://DavidMoCe.github.io/Crazy-streets)  
 
 ---
 
