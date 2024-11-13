@@ -39,7 +39,7 @@ Follow these steps to run the game on your local machine:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/calles-locas.git
+   git clone https://github.com/DavidMoCe/calles-locas.git
    
 2. **Navigate to the project directory**:
    ```bash
@@ -105,7 +105,7 @@ Sigue estos pasos para ejecutar el juego en tu máquina local:
 
 1. **Clonar el repositorio**:
    ```bash
-   git clone https://github.com/tu-usuario/calles-locas.git
+   git clone https://github.com/DavidMoCe/calles-locas.git
 
 2. **Navegar al directorio del proyecto**:
    ```bash
