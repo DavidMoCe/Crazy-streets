@@ -51,7 +51,7 @@ Follow these steps to run the game on your local machine:
    
 2. **Navigate to the project directory**:
    ```bash
-   cd calles-locas
+   cd Crazy-streets
 
 3. **Open the `index.html` file in your browser.**
 
@@ -116,7 +116,7 @@ Sigue estos pasos para ejecutar el juego en tu máquina local:
 
 2. **Navegar al directorio del proyecto**:
    ```bash
-   cd calles-locas
+   cd Crazy-streets
 
 3. **Abrir el archivo `index.html` en tu navegador.**
 
