@@ -37,6 +37,11 @@ Welcome to **Crazy Streets**, an exciting multiplayer game where two cars compet
   - If a car accumulates 10 collisions, its screen stops, allowing the other car to continue playing.
   - The game ends when both cars have collided 10 times, displaying the winner and the playtime for each car.
 
+- **Scoring System**:
+  - Players automatically accumulate **points** as they progress in the game.
+  - The score increases over time based on the level reached.
+  - At the end of the game, a **pop-up alert** displays the final score and playtime for each player.
+
 ## 🖥️ Screenshots (Optional)
 
 *(Add images of the game in action to attract more users)*
@@ -101,6 +106,11 @@ Developed by **David Moreno Cerezo**.
   - Cada coche tiene un límite de 10 colisiones.
   - Si un coche acumula 10 colisiones, su pantalla se detiene, permitiendo que el otro coche siga jugando.
   - El juego termina cuando ambos coches han colisionado 10 veces, mostrando al jugador ganador y el tiempo de juego de cada uno.
+
+- **Sistema de Puntuación**:
+  - Los jugadores acumulan **puntos automáticamente** a medida que avanzan en el juego.
+  - La puntuación aumenta cada cierto tiempo en función del nivel alcanzado.
+  - Al finalizar el juego, se muestra un resumen en un **alerta** que incluye la puntuación final y el tiempo de juego de cada jugador.
 
 ## 🖥️ Capturas de Pantalla (Opcional)
 
