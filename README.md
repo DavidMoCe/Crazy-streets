@@ -71,7 +71,7 @@ Follow these steps to run the game on your local machine:
 
 ## 📜 License
 
-This project is licensed under the **CC BY-NC 4.0** license. See the `LICENSE` file for more details.
+This project is licensed under the **CC BY-NC 4.0** license. See the [`LICENSE`](https://github.com/DavidMoCe/Crazy-streets/blob/main/LICENSE.txt) file for more details.
 
 ## 🌟 Credits
 
@@ -141,7 +141,7 @@ Sigue estos pasos para ejecutar el juego en tu máquina local:
 
 ## 📜 Licencia
 
-Este proyecto está licenciado bajo la licencia **CC BY-NC 4.0**. Consulta el archivo `LICENSE` para más detalles.
+Este proyecto está licenciado bajo la licencia **CC BY-NC 4.0**. Consulta el archivo [`LICENSE`](https://github.com/DavidMoCe/Crazy-streets/blob/main/LICENSE.txt) para más detalles.
 
 ## 🌟 Créditos
 
